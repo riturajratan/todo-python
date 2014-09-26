@@ -25,4 +25,4 @@ class Choice(models.Model):
 		
 	  # ...
     def __str__(self):              # __unicode__ on Python 2
-        return self.question_text
+        return self.question.question_text
